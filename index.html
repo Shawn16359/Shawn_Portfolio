@@ -1,64 +1,48 @@
 <!DOCTYPE html>
-<html>
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>RCM Denial Triage Assistant</title>
-</head>
-<body>
-  <h1 style="font-family: sans-serif; padding: 24px;">Chat with our assistant</h1>
-
-  <script type="text/javascript">
-    (function(d, t) {
-        var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
-        v.onload = function() {
-          window.voiceflow.chat.load({
-            verify: { projectID: '6acc1086692b3940fa1dac88' },
-            url: 'https://general-runtime.voiceflow.com',
-            voice: {
-              url: 'https://runtime-api.voiceflow.com'
-            },
-            environmentID: 'main',
-            versionVariant: 'published'
-          });
-        }
-        v.src = 'https://cdn.voiceflow.com/widget-next/bundle.mjs'; v.type = 'text/javascript'; s.parentNode.insertBefore(v, s);
-    })(document, 'script');
-  </script>
-</body>
-</html>
-
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RCM Denial Triage Agent Portfolio</title>
+    <title>RCM Denial Triage Agent Portfolio - Shawn</title>
 </head>
-<body>
+<body style="font-family: Arial, sans-serif; background-color: #f9f9f9; color: #333; margin: 0; padding: 0;">
 
     <!-- Header Section -->
-    <header>
-        <h1>Revenue Cycle Management Portfolio</h1>
-        <p>Shawn | Revenue Cycle Leader (25+ Years Experience)</p>
+    <header style="background-color: #0f172a; color: white; padding: 40px 20px; text-align: center;">
+        <h1 style="margin: 0 0 10px 0; font-size: 2.2rem;">Revenue Cycle Management Portfolio</h1>
+        <p style="margin: 0; font-size: 1.1rem; color: #94a3b8;">Shawn | Revenue Cycle Leader (25+ Years Experience)</p>
     </header>
 
     <!-- Executive Summary Section -->
-    <section class="executive-summary" style="max-width: 800px; margin: 20px auto; font-family: Arial, sans-serif;">
-        <h2>Executive Portfolio Summary: RCM Denial Triage & Automation Agent</h2>
+    <main style="max-width: 800px; margin: 40px auto; background: white; padding: 40px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.05);">
+        <h2 style="color: #0f172a; margin-top: 0; font-size: 1.5rem;">Executive Portfolio Summary: RCM Denial Triage & Automation Agent</h2>
         
-        <!-- Optional Thumbnail Image -->
-        <!-- <img src="your-thumbnail-filename.png" alt="RCM Agent Thumbnail" style="width: 100%; max-height: 300px; object-fit: cover; margin-bottom: 15px;"> -->
+        <!-- Optional Thumbnail Image Placeholder -->
+        <!-- <img src="your-thumbnail-filename.png" alt="RCM Agent Thumbnail" style="width: 100%; max-height: 300px; object-fit: cover; margin-bottom: 20px; border-radius: 6px;"> -->
 
-        <p>As a seasoned revenue cycle leader with over 25 years of experience, I designed and engineered this automated RCM Denial Triage Agent to bridge the gap between complex operational workflows and scalable digital architecture. Built using a structured hub-and-spoke model, this interactive assistant provides deterministic, step-by-step guidance across seven high-frequency CARC and eligibility denial categories—including pre-authorization (CO-197), missing information (CO-16), timely filing (CO-29), medical necessity (CO-150), duplicate claims (CO-18), coordination of benefits (CO-22), and front-end coverage verification (CO-27/CO-31).</p>
+        <p style="line-height: 1.6;">As a seasoned revenue cycle leader with over 25 years of experience, I designed and engineered this automated RCM Denial Triage Agent to bridge the gap between complex operational workflows and scalable digital architecture. Built using a structured hub-and-spoke model, this interactive assistant provides deterministic, step-by-step guidance across seven high-frequency CARC and eligibility denial categories—including pre-authorization (CO-197), missing information (CO-16), timely filing (CO-29), medical necessity (CO-150), duplicate claims (CO-18), coordination of benefits (CO-22), and front-end coverage verification (CO-27/CO-31).</p>
         
-        <p>Every triage pathway directly targets core financial performance indicators, safeguarding metrics like <strong>First-Pass Appeal Yield</strong>, <strong>Timely Filing Write-Offs</strong>, and <strong>A/R Over 90 Days</strong>.</p>
-    </section>
+        <p style="line-height: 1.6;">Every triage pathway directly targets core financial performance indicators, safeguarding metrics like <strong>First-Pass Appeal Yield</strong>, <strong>Timely Filing Write-Offs</strong>, and <strong>A/R Over 90 Days</strong>.</p>
+    </main>
 
-    <!-- Your Existing Voiceflow Embed Code Goes Here -->
-    <div id="voiceflow-agent-container">
-        <!-- Paste your existing embed script right here -->
-    </div>
+    <!-- Voiceflow Chat Widget Script (Loads minimized in the corner) -->
+    <script type="text/javascript">
+        (function(d, t) {
+            var v = d.createElement(t), s = d.getElementsByTagName(t)[0];
+            v.onload = function() {
+              window.voiceflow.chat.load({
+                verify: { projectID: '6acc1086692b3940fa1dac88' },
+                url: 'https://general-runtime.voiceflow.com',
+                voice: {
+                  url: 'https://runtime-api.voiceflow.com'
+                },
+                environmentID: 'main',
+                versionVariant: 'published'
+              });
+            }
+            v.src = 'https://cdn.voiceflow.com/widget-next/bundle.mjs'; v.type = 'text/javascript'; s.parentNode.insertBefore(v, s);
+        })(document, 'script');
+    </script>
 
 </body>
 </html>
